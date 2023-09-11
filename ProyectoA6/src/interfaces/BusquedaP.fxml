@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="643.0" prefWidth="738.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="43.0" layoutY="48.0" text="Busqueda de Producto" AnchorPane.leftAnchor="43.0" AnchorPane.topAnchor="48.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblUser" layoutX="606.0" layoutY="39.0" text="User1" AnchorPane.rightAnchor="99.0" AnchorPane.topAnchor="39.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Circle fx:id="idcirculo" fill="#cdd7e1" layoutX="679.0" layoutY="48.0" radius="23.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.rightAnchor="36.0" AnchorPane.topAnchor="25.0" />
+      <TextField fx:id="txtBuscarP" layoutX="43.0" layoutY="108.0" prefHeight="25.0" prefWidth="452.0" promptText="Buscar" AnchorPane.leftAnchor="43.0" AnchorPane.rightAnchor="243.0" AnchorPane.topAnchor="108.0" />
+      <ComboBox fx:id="idCB" layoutX="503.0" layoutY="108.0" prefHeight="25.0" prefWidth="130.0" promptText="Selecciona" AnchorPane.rightAnchor="105.0" AnchorPane.topAnchor="108.0" />
+      <Button fx:id="btnBuscarp" layoutX="640.0" layoutY="108.0" mnemonicParsing="false" onAction="#btnBuscarP_click" prefHeight="25.0" prefWidth="64.0" text="Buscar" AnchorPane.rightAnchor="34.0" AnchorPane.topAnchor="108.0" />
+      <AnchorPane layoutX="43.0" layoutY="171.0" prefHeight="426.0" prefWidth="659.0" AnchorPane.bottomAnchor="46.0" AnchorPane.leftAnchor="43.0" AnchorPane.rightAnchor="36.0" AnchorPane.topAnchor="171.0">
+         <children>
+            <TableView fx:id="tblBusquedaP" prefHeight="426.0" prefWidth="659.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <columns>
+                <TableColumn fx:id="colId" minWidth="7.0" prefWidth="70.0" text="ID" visible="false" />
+                <TableColumn fx:id="colNombre" prefWidth="269.0" text="Producto" />
+                  <TableColumn fx:id="colProvedor" prefWidth="199.0" text="Proveedor" />
+                  <TableColumn fx:id="colExistencia" prefWidth="101.0" text="Cantidad" />
+                  <TableColumn fx:id="colPrecio" prefWidth="89.0" text="Precio" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+      <Button fx:id="btnCarrito" layoutX="562.0" layoutY="603.0" mnemonicParsing="false" onAction="#btnCarrito_click" prefHeight="25.0" prefWidth="130.0" text="Carrito de compra" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="46.0" />
+      <Label fx:id="lblUserCir" alignment="CENTER" layoutX="656.0" layoutY="20.0" prefHeight="57.0" prefWidth="46.0" textAlignment="CENTER" AnchorPane.rightAnchor="36.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

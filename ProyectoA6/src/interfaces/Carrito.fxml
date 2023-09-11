@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="643.0" prefWidth="460.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="43.0" layoutY="48.0" text="Carrito de compra" AnchorPane.leftAnchor="43.0" AnchorPane.topAnchor="48.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="40.0" layoutY="109.0" prefHeight="470.0" prefWidth="375.0" AnchorPane.bottomAnchor="64.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="45.0" AnchorPane.topAnchor="109.0">
+         <children>
+            <TableView fx:id="tblCar" prefHeight="470.0" prefWidth="375.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <columns>
+                  <TableColumn fx:id="colNombre" prefWidth="279.0" text="Producto" />
+                  <TableColumn fx:id="colPrecio" prefWidth="95.0" text="Precio" />
+                  <TableColumn fx:id="colId" prefWidth="75.0" text="Id" visible="false" />
+                  <TableColumn fx:id="colExistencia" prefWidth="75.0" text="Existencia" visible="false" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+      <Button fx:id="btnCarPa" layoutX="261.0" layoutY="594.0" mnemonicParsing="false" onAction="#btnCarPa_click" prefHeight="25.0" prefWidth="62.0" text="Pagar" AnchorPane.bottomAnchor="24.0" AnchorPane.rightAnchor="137.0" />
+      <Button fx:id="btnCarCan" layoutX="353.0" layoutY="594.0" mnemonicParsing="false" onAction="#btnCarCan_click" text="Cancelar" AnchorPane.bottomAnchor="24.0" AnchorPane.rightAnchor="45.0" />
+   </children>
+</AnchorPane>

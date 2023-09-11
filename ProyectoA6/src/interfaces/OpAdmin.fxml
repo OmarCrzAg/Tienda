@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="291.0" prefWidth="263.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="67.0" prefWidth="263.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="67.0" prefWidth="263.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label text="Elije la opcion a administar">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+      <Button fx:id="btnOpEmpleados" layoutX="83.0" layoutY="63.0" mnemonicParsing="false" onAction="#btnOpEmpleados_click" prefHeight="25.0" prefWidth="98.0" text="Empleados" AnchorPane.leftAnchor="83.0" AnchorPane.rightAnchor="82.0" />
+      <Button fx:id="btnOpProductos" layoutX="83.0" layoutY="121.0" mnemonicParsing="false" onAction="#btnOpProductos_click" prefHeight="25.0" prefWidth="98.0" text="Productos" AnchorPane.leftAnchor="83.0" AnchorPane.rightAnchor="82.0" />
+      <Button fx:id="btnOpVentas" layoutX="83.0" layoutY="182.0" mnemonicParsing="false" onAction="#btnOpVentas_click" prefHeight="25.0" prefWidth="98.0" text="Ventas" AnchorPane.leftAnchor="83.0" AnchorPane.rightAnchor="82.0" />
+      <Button fx:id="btnReg" layoutX="67.0" layoutY="238.0" mnemonicParsing="false" onAction="#btnReg_click" prefHeight="25.0" prefWidth="131.0" text="Regresar" AnchorPane.leftAnchor="67.0" AnchorPane.rightAnchor="65.0" AnchorPane.topAnchor="238.0" />
+   </children>
+</AnchorPane>

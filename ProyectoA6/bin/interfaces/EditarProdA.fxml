@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="444.0" prefWidth="317.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="txtId" editable="false" layoutX="17.0" layoutY="50.0" prefHeight="25.0" prefWidth="157.0" promptText="ID" AnchorPane.leftAnchor="17.0" AnchorPane.rightAnchor="143.0" />
+      <TextField fx:id="txtNombre" layoutX="17.0" layoutY="128.0" prefHeight="25.0" prefWidth="157.0" promptText="NOMBRE" AnchorPane.leftAnchor="17.0" AnchorPane.rightAnchor="143.0" />
+      <TextField fx:id="txtProvedor" layoutX="17.0" layoutY="210.0" prefHeight="25.0" prefWidth="157.0" promptText="PROVEEDOR" AnchorPane.leftAnchor="17.0" AnchorPane.rightAnchor="143.0" />
+      <TextField fx:id="txtPrecio" layoutX="17.0" layoutY="291.0" prefHeight="25.0" prefWidth="157.0" promptText="PRECIO" AnchorPane.leftAnchor="17.0" AnchorPane.rightAnchor="143.0" />
+      <TextField fx:id="txtCantidad" layoutX="17.0" layoutY="377.0" prefHeight="25.0" prefWidth="157.0" promptText="CANTIDAD" AnchorPane.leftAnchor="17.0" AnchorPane.rightAnchor="143.0" />
+      <Label layoutX="18.0" layoutY="33.0" text="ID" AnchorPane.leftAnchor="18.0" />
+      <Label layoutX="18.0" layoutY="111.0" text="Nombre" AnchorPane.leftAnchor="18.0" />
+      <Label layoutX="18.0" layoutY="193.0" text="Proveedor" AnchorPane.leftAnchor="18.0" />
+      <Label layoutX="18.0" layoutY="274.0" text="Precio" AnchorPane.leftAnchor="18.0" />
+      <Label layoutX="19.0" layoutY="360.0" text="Cantidad" AnchorPane.leftAnchor="19.0" />
+      <Button fx:id="btnActualiza" layoutX="197.0" layoutY="167.0" mnemonicParsing="false" onAction="#btnActualizar_click" prefHeight="25.0" prefWidth="91.0" text="Actualizar" AnchorPane.leftAnchor="197.0" AnchorPane.rightAnchor="29.0" />
+      <Button fx:id="btnCancela" layoutX="197.0" layoutY="249.0" mnemonicParsing="false" onAction="#btnCancela_click" prefHeight="25.0" prefWidth="91.0" text="Cancelar" AnchorPane.leftAnchor="197.0" AnchorPane.rightAnchor="29.0" />
+   </children>
+</AnchorPane>

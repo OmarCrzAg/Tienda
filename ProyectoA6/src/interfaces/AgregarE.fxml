@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="529.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutY="8.0" prefHeight="91.0" prefWidth="263.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label layoutX="22.0" layoutY="26.0" prefHeight="20.0" prefWidth="83.0" text="Nombre" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="158.0" AnchorPane.topAnchor="26.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtNombreEN" layoutX="22.0" layoutY="46.0" prefHeight="25.0" prefWidth="257.0" promptText="Nombre" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="21.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="5.0" layoutY="99.0" prefHeight="91.0" prefWidth="263.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label layoutX="22.0" layoutY="26.0" prefHeight="20.0" prefWidth="83.0" text="Usuario" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="158.0" AnchorPane.topAnchor="26.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtUsuarioEN" layoutX="22.0" layoutY="46.0" prefHeight="25.0" prefWidth="257.0" promptText="Ejemplo123" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="21.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="190.0" prefHeight="91.0" prefWidth="273.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label layoutX="22.0" layoutY="26.0" prefHeight="20.0" prefWidth="83.0" text="Contraseña" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="158.0" AnchorPane.topAnchor="26.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="psContrasenaEN" layoutX="22.0" layoutY="46.0" prefHeight="25.0" prefWidth="220.0" promptText="***" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="21.0" AnchorPane.topAnchor="46.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="288.0" prefHeight="91.0" prefWidth="273.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label layoutX="22.0" layoutY="26.0" prefHeight="20.0" prefWidth="148.0" text="Confirmar Contraseña" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="103.0" AnchorPane.topAnchor="26.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="psContrasenaENC" layoutX="22.0" layoutY="46.0" prefHeight="25.0" prefWidth="220.0" promptText="***" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="21.0" AnchorPane.topAnchor="46.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="389.0" prefHeight="38.0" prefWidth="300.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <CheckBox fx:id="cbAdminEN" layoutX="25.0" layoutY="11.0" mnemonicParsing="false" text="Permisos de administardor" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="-2.0" layoutY="435.0" prefHeight="91.0" prefWidth="304.0" AnchorPane.leftAnchor="-2.0" AnchorPane.rightAnchor="-2.0" AnchorPane.topAnchor="435.0">
+         <children>
+            <Button fx:id="btnGuardarEN" layoutX="21.0" layoutY="34.0" mnemonicParsing="false" onAction="#btnGuardarEN_click" prefHeight="0.0" prefWidth="101.0" text="Aceptar" textAlignment="CENTER" AnchorPane.bottomAnchor="32.0" AnchorPane.leftAnchor="21.0" AnchorPane.topAnchor="34.0" />
+            <Button fx:id="btnCancelaEN" layoutX="141.0" layoutY="34.0" mnemonicParsing="false" onAction="#btnCancelaEN_click" prefHeight="25.0" prefWidth="101.0" text="Cancelar" AnchorPane.bottomAnchor="32.0" AnchorPane.rightAnchor="21.0" AnchorPane.topAnchor="34.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
